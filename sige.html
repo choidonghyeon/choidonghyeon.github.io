@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>⊂ BBIBU ⊃ </title>
+	<title>⊂ BBIBU = 시청자 ⊃ </title>
 	<link rel="icon" href="rogo2.png">
 	<style>
 	*{
@@ -46,8 +46,8 @@
     }
     #main_img {
 	width: 1920px;
-	height: 439px;
-	background-image: url('mainscren.png');
+	height: 200px;
+	background-image: url('sige.png');
 	background-repeat: no-repeat;
 	background-position: top center;
     }
@@ -55,28 +55,67 @@
 	float: right;
 	margin-top: 10px;
     }
-    #side {
-    	margin: 20px 45px 0 50px;
-    }
-    #sside {
-    	width: 1500px;
-    	margin: 0 auto;
-    	padding: 10px;
-    	margin-top: 15px;
-    }
     footer{
 	width: 1920px;
 	height: 42px;
-	margin-top: 55px;
+	margin-top: 397px;
 	background-color: #2c2a29;
     }
     #foo{
     	color: white;
     	padding: 10px 20px 0 0;
     }
+    tr{
+		text-align: center;
+	}
+    th, td{
+    	padding: 10px;
+    }
+    table{
+    	margin: 0 auto;
+		border-collapse: collapse;
+		margin-top: 20px;
+	}
+	#ttt{
+		border-bottom: solid 3px rgb(240,190,163);
+		background-color: rgb(252,220,190);
+		color : rgb(159,80,34);
+	}
+	#nae{
+		padding: 10px 250px;
+	}
+	.naa{
+		padding: 10px 30px;
+	}
+	.aan{
+		border-bottom: solid 1px rgb(165,165,165);
+	}
+	.een{
+		border-bottom: solid 3px rgb(240,190,163);
+	}
+	#die{
+		
+		padding-top: 20px;
+		color: rgb(171,171,171);
+	}
+	span{
+		font-weight: bold;
+		color: rgb(000,000,000);
+	}
+	#ff{
+		width: 587px;
+		float: right;
+	}
+	#dd{
+		padding: 3px;
+		font-size: 15px;
+		background-color: rgb(240,170,163);
+		border-radius: 10px;
+		color: white;
+	}
 	</style>
 </head>
-<body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+<body>
 <div>
 	<header>
 		<div id="logo">
@@ -89,7 +128,7 @@
 		<ul id="main_meun">
 			<li> <a href="soge.html"><img src="soge.png" width="162"></a> </li>
 			<li> <a href="penmade.html"><img src="panmed.png" width="208"></a></li>
-			<li> <a href="sige.html"><img src="sichoja.png" width="208"></a></li>
+			<li> <a href="sige.html"><img src="sichoja2.png" width="208"></a></li>
 			<li> <a href="ilust.html"><img src="liust.png" width="150"></a></li>
 			<li> <a href="remix.html"><img src="remix.png" width="150"></a></li>
 		</ul>
@@ -98,18 +137,47 @@
 	<div class="clear"></div>
 	<section id="main_img">
 	</section>
+	<section>
+		<table>
+			<tr id="ttt">
+				<th id="nae">제목</th>
+				<th class="naa">작성자</th>
+				<th class="naa">작성일</th>
+				<th class="naa">조회수</th>
+			</tr>
+			<tr class="aan">
+				<td>작성된 글이 없습니다.</td>
+				<td>Sever</td>
+				<td>2018-12-15</td>
+				<td>0</td>
+			</tr>
+			<tr class="aan">
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr class="een">
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+		<center>
+		<div id="die"><span>1</span> / 2 / 3 / 4 / ..32</div>
+	</center>
+	<div id="ff">
+	<button id="dd">글쓰기</button>
+</div>
+</section>
+<footer>
 	<center>
-	<aside id="sside">
-		<a class="twitter-timeline" href="https://twitter.com/sss1032204" width ="435" height ="235"></a>
-		<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-		<iframe id="side" src="https://player.twitch.tv/?channel=s1032204" frameborder="0" allowfullscreen="true" scrolling="no" height="235" width="435"></iframe>
-	</aside>
-	<footer>
 		<div id="foo">
 			컴퓨터는 컴마왕 ! 추천 스트리머는 삐부 !
 		</div>
-	</footer>
-</center>
+	</center>
+</footer>
 </div>
 </body>
 </html>
